@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Whether you have a question, feedback, or a collaboration idea, fill out the form below or reach out directly.</p>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      <article>
+        <h3>How can I contribute to My Blog?</h3>
+        <p>We welcome guest posts from passionate writers. Please submit your pitch via the contact form, including a brief bio and your proposed topic. Our team will review and get back to you within a week.</p>
+      </article>
+      <article>
+        <h3>Do you offer subscriptions?</h3>
+        <p>Currently, all our content is free to access. We may introduce a premium newsletter in the future, so stay tuned by following us on social media or signing up for updates.</p>
+      </article> 
+      <article>
+        <h3>How often do you publish new posts?</h3>
+        <p>We publish new articles every week, typically on Mondays and Thursdays. Follow us on social media or check the Home page for the latest updates.</p>
+      </article>
+      <article>
+        <h3>Can I advertise on My Blog?</h3>
+        <p>Yes, we offer advertising opportunities. Contact us via the form above with details about your brand and campaign goals, and we'll share our media kit.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 My Blog. All rights assisted.</p>
+    <div class="footer-social">
+      <p>Follow us on social media:</p>
+      <a href="mailto:info@myblog.com" class="social-icon"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://twitter.com/myblog" class="social-icon" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://instagram.com/myblog" class="social-icon" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://facebook.com/myblog" class="social-icon" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
