@@ -1,1 +1,85 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Welcome to My Blog</h2>
+      <p>Explore our collection of articles on technology, lifestyle, and personal growth. We aim to inspire, inform, and engage our readers with fresh perspectives and practical insights. Dive into our latest posts below and join our community of curious minds!</p>
+    </section>
+    <section class="blog-posts">
+      <h2>Latest Posts</h2>
+      <article class="post-card">
+        <img src="https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg" alt="Circuit board representing AI">
+        <h3>The Future of Artificial Intelligence</h3>
+        <p>AI is transforming industries from healthcare to finance. Explore the latest trends and what they mean for the future...</p>
+        <button class="read-more" data-title="The Future of Artificial Intelligence" data-content="Artificial Intelligence is advancing rapidly, with applications in autonomous vehicles, personalized medicine, and more. This post dives into the ethical considerations and technological breakthroughs driving AI forward.">Read More</button>
+      </article>
+      <article class="post-card">
+        <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg" alt="Minimalist living room">
+        <h3>Minimalist Living: A Guide to Less</h3>
+        <p>Discover how minimalism can simplify your life and boost your happiness. Practical tips to start today...</p>
+        <button class="read-more" data-title="Minimalist Living: A Guide to Less" data-content="Minimalism is more than decluttering; it's a mindset shift. Learn how to prioritize what matters and let go of excess with actionable steps for a simpler life.">Read More</button>
+      </article>
+      <article class="post-card">
+        <img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg" alt="Desk with laptop and planner">
+        <h3>Top 5 Productivity Hacks for 2025</h3>
+        <p>Boost your efficiency with these proven strategies. From time-blocking to digital detoxes, we've got you covered...</p>
+        <button class="read-more" data-title="Top 5 Productivity Hacks for 2025" data-content="In a fast-paced world, staying productive is key. This post covers five practical hacks, including Pomodoro techniques and app recommendations, to help you achieve more.">Read More</button>
+      </article>
+      <article class="post-card">
+        <img src="https://images.pexels.com/photos/3467158/pexels-photo-3467158.jpeg" alt="Eco-friendly travel scene">
+        <h3>Exploring Sustainable Travel</h3>
+        <p>Learn how to travel responsibly while minimizing your environmental impact. Tips for eco-friendly adventures...</p>
+        <button class="read-more" data-title="Exploring Sustainable Travel" data-content="Sustainable travel is about making conscious choices. From carbon offsets to supporting local communities, discover how to explore the world responsibly.">Read More</button>
+      </article>
+      <article class="post-card">
+        <img src="https://images.pexels.com/photos/5973957/pexels-photo-5973957.jpeg" alt="Home office setup">
+        <h3>The Rise of Remote Work</h3>
+        <p>Remote work is here to stay. Explore its benefits, challenges, and tips for thriving in a virtual workspace...</p>
+        <button class="read-more" data-title="The Rise of Remote Work" data-content="Remote work has reshaped the workplace. This post examines its impact on work-life balance, collaboration tools, and strategies for staying motivated.">Read More</button>
+      </article>
+      <article class="post-card">
+        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Fresh produce for healthy eating">
+        <h3>Healthy Eating on a Budget</h3>
+        <p>Eating well doesn't have to break the bank. Discover affordable recipes and shopping tips...</p>
+        <button class="read-more" data-title="Healthy Eating on a Budget" data-content="Healthy eating is accessible with the right approach. Learn how to plan meals, shop smart, and cook nutritious dishes without overspending.">Read More</button>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 My Blog. All rights reserved.</p>
+    <div class="footer-social">
+      <p>Follow us on social media:</p>
+      <a href="mailto:info@myblog.com" class="social-icon"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://twitter.com/myblog" class="social-icon" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://instagram.com/myblog" class="social-icon" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://facebook.com/myblog" class="social-icon" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+    </div>
+  </footer>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">×</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-content"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
